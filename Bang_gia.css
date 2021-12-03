@@ -1,0 +1,260 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.header {
+	top: 0px;
+	display: flex;
+	width: 100%;
+	padding-left:12.7% ;
+	position: fixed;
+	background-color: white;
+	z-index: 10;
+	/*box-shadow: 2px 2px 2px rgb(216, 216, 216);*/
+}
+.header_logo{
+	width: 16%;
+}
+.header_logo>img {
+	width: 85%;	
+}
+.header_content {
+	margin-top: 1.5em;
+	display: flex;
+	width: 67%;
+}
+.cnt_item {
+	margin-right: 0.8%;
+	font-family: Tahoma;
+	text-shadow: 3px 3px 3px rgb(216,216,216);
+	margin-right: 1.2em;
+	transition: 1s all ease;
+}
+.header_icon {
+	margin-top: 1.5em;
+	display: flex;
+	width: 4%;
+	justify-content: space-between;
+}
+.banner {
+	margin-top: 0.5em;
+}
+.title{
+	transform-origin: center;
+	transition: 0.3s all ease;
+}
+.title:hover {
+	color: greenyellow;
+	border-bottom: 1px solid greenyellow;
+}
+.dropdown {
+	position: relative;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	width: 230px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.drditem {
+	font-size: 15px;
+	padding: 15px;
+	border-bottom: 1px solid rgb(216, 216, 216);
+}
+.drditem:last-child {
+	border: none;
+}
+.drditem:hover {
+	color: red;
+}
+.cnt_item:hover .dropdown-content {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+/* --------------------Header-end-------------------------*/
+.banner > img {
+	width: 100%;
+	height: 9.5em;
+}
+
+.banner_button {
+	position: absolute;
+	top: 31.7rem;
+	left: 12rem;
+}
+.banner_text_banggia {
+	font-family: Arial;
+	position: absolute;
+	top: 11.5rem;
+	left: 13rem;
+	color: white;
+	font-size: 25px;
+}
+.table {
+	display: flex;
+}
+.col1 > div > img {
+	width: 3rem;
+}
+.tb_nor_title {
+	width: 12rem;
+	height: 3rem;
+	text-align: right;
+	border-bottom: 1px solid rgb(216, 216, 216);
+	margin-top: 1rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+.tb_nor_title:last-child{
+	border-bottom: none;
+}
+.tb_nor_value{
+	width: 12rem;
+	height: 3rem;
+	text-align: center;
+	border-bottom: 1px solid rgb(216, 216, 216);
+	margin-top: 1rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+.tb_first_title {
+	padding-bottom: 5rem;
+	text-align: right;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: whitesmoke;
+	height: 5rem;
+	padding-top: 1.5rem;
+	padding-right: 1rem;
+}
+.tb_first_title_1{
+	text-align: center;
+	
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: whitesmoke;
+	height: 5rem;
+	padding-bottom: 5rem;
+	padding-top: 1.5rem;
+}
+.tb_nor_value > img {
+	margin-bottom: 12rem;
+}
+.table {
+	margin-left: 20%;
+	margin-bottom: 3rem;
+}
+.table_title {
+	border-left: 1px solid rgb(216,216,216);
+	border-right: 1px solid rgb(216,216,216);
+	border-bottom: 1px solid rgb(216,216,216);
+}
+.table_title :last-child{
+	border: none;
+}
+.col1 {
+	border-right: 1px solid rgb(216,216,216);
+	border-bottom: 1px solid rgb(216,216,216);
+}
+.tb_nor_value_img{
+	
+	height: 3rem;
+	text-align: center;
+	border-bottom: 1px solid rgb(216, 216, 216);
+	margin-top: 1rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+.tb_nor_value:last-child{
+	border: none;
+}
+.col1:hover {
+	box-shadow: 5px 5px 5px 5px #888888;
+	z-index: 1;
+	position: relative;
+}
+.col1:hover .tb_first_title_1{
+	height: 7.5rem;
+	margin-top: -1rem;
+	background-color: darkgray;
+}
+.col1:hover .tb_nor_value:last-child {
+	height: 5rem;
+	margin-bottom: -1rem;
+}
+.tb_button {
+	margin-left:35% ;
+	display: flex;
+}
+.col1_button {
+	margin-right: 0.7rem;
+	background-color: rgb(245, 175, 95);
+	border-radius: 25px;
+	padding: 1.1rem 3rem;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px gray;
+	transition: 0.5s all ease;
+}
+.col1_button:hover {
+	background-color: rgb(247, 134, 5);
+	box-shadow: 2px 2px gray;
+}
+.red_text {
+	margin-top: 3rem;
+	margin-left: 21%;
+	color: red;
+	font-size: 22px;
+	font-family: Arial;
+	margin-bottom: 3rem;
+}
+
+.price_table {
+	margin-left: 20%;
+	margin-bottom: 3rem;
+	border-bottom: 1px solid rgb(216, 216, 216);
+}
+.price_table >div{
+	margin-left: 30%;
+	font-size: 22px;
+	font-family: Arial;
+	margin-bottom: 1.2rem;
+	color: red;
+}
+.tb2 {
+	width: 76%;
+}
+.tb2_col {
+	padding: 0.6rem;
+	font-family: Arial;
+	font-weight: bold;
+	border-top: 1px solid rgb(216, 216, 216);
+	border-right: 1px solid rgb(216, 216, 216);
+	border-left: 1px solid rgb(216, 216, 216);
+	font-size: 14px;
+}
+.tb2_col:last-child {
+	border-left: none;
+}
+.last_row_bg {
+	margin-left: 20%;
+	margin-bottom: 2rem;
+}
+.notice_item {
+	border-bottom: 1px solid rgb(216, 216, 216);
+	padding-top: 0.7rem;
+	padding-bottom: 0.7rem;
+	font-family: Arial;
+}
+.last_ele {
+	margin-left: 23%;
+}
