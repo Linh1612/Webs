@@ -15,6 +15,7 @@
 }
 
 .content1{
+	padding-top: 5rem;
 	display: flex;
 	width: 75%;
 	margin: 0px auto;
@@ -25,7 +26,7 @@
 	width: 50%;
 }
 
-.content1>.content1-col1>.btn{
+.content1>.content1-col1>a>.btn{
 	height: 3rem;
 	width: 17rem;
 	border-radius: 5rem;
@@ -37,10 +38,85 @@
 	text-transform: uppercase;
 }
 
-.content1>.content1-col1>.btn:hover{
+.content1>.content1-col1>a>.btn:hover{
 	background-color: #c0d34b;
 }
 
-.content1>.content-col2{
-	width: 50%;
+.content1>.content1-col2{
+	width: 50%
+}
+
+.content1>.content1-col2>img{
+	padding-left: 7rem;
+	width: 90%;
+}
+
+.content3{
+	width: 75%;
+	margin: 0rem auto;
+	margin-bottom: 5rem;
+	display: flex;
+}
+
+.content3>.content3-col1{
+	width: 33%;
+	line-height: 1.2rem;
+}
+
+.content3>.content3-col1>h1{
+	padding-bottom: 1rem;
+	line-height: 2rem;
+}
+
+.content3>.content3-col1>p{
+	color: gray;
+}
+
+.content3>.content3-col1>a>.content3-btn{
+	height: 3rem;
+	width: 17rem;
+	border-radius: 0.5rem;
+	box-shadow: 0rem 0.2rem black;
+	background-color: #0c7fd7;
+	border: none;
+	font-size: 1rem;
+	color: white;
+	text-transform: uppercase;
+}
+
+.content3>.content3-col1>a>.content3-btn:hover{
+	background-color: gray;
+}
+
+.content3>.content3-col2{
+	width: 66%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 1rem;
+}
+
+.content3>.content3-col2>.benefit{
+	width: 45%;
+	display: flex;
+	margin-right: 2rem;
+	margin-bottom: 1rem;
+}
+
+.content3>.content3-col2>.benefit>img{
+	width: 4rem;
+	height: 4rem;
+}
+
+.content3>.content3-col2>.benefit>div{
+	text-align: justify;
+}
+
+.content3>.content3-col2>.benefit>div>h5:hover{
+	color: red;
+	cursor: pointer;
+	transition: 0.7s;
+}
+
+.content3>.content3-col2>.benefit>div>p{
+	color: gray;
 }
